@@ -28,7 +28,7 @@ def msg_received_from_group():
 #Sends a message to the chat that the bot originates from
 def send_msg(msg):
   url  = 'https://api.groupme.com/v3/bots/post'
-  payload = { 'text' : msg, 'bot_id' : 'e4674e778e9972ea3137611978'}
+  payload = { 'text' : msg, 'bot_id' : 'f3c1b70a1c9d5383bd016d4db5'}
   r = requests.post(url, data=json.dumps(payload))
 
 #logging function to help debug
